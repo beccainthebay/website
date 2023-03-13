@@ -16,6 +16,14 @@ body {
     padding-top: 102px;
 }
 
+section h2 {
+    font-size: 70px;
+}
+
+section h3 {
+    font-size: xx-large;
+}
+
 .header-container {
     background-color: black;
     display: flex;
@@ -44,6 +52,14 @@ nav a {
     color: white;
     font-size: 1.8rem;
     margin-right: 50px;
+}
+
+#offerings:before {
+    display: block;
+    visibility: hidden;
+    content: '';
+    height: 70px;
+    margin-top: -70px;
 }
 
 nav a:hover {
@@ -142,6 +158,10 @@ nav .box a:hover {
     align-items: center;
     width: 100%;
     flex-wrap: wrap;
+}
+
+.lets-chat {
+    width: 100%;
 }
 
 .footer-container {
