@@ -24,6 +24,10 @@ section h3 {
     font-size: xx-large;
 }
 
+section p {
+    font-size: 30px;
+}
+
 .header-container {
     background-color: black;
     display: flex;
